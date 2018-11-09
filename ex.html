@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var a = [-7,4,3,9,15,16,25,93,-8,0,64,21];
+    var max = a[0];
+    var chiso = 0;
+    for (var i =0; i<a.length;i++){
+        if (a[i] > max){
+            max = a[i];
+            chiso = i;
+        }
+    }
+    document.write("Gia tri lon nhat la " + max + " nam tai vi tri " + chiso);
+</script>
+</body>
+</html>
